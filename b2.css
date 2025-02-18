@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 400px;
+    margin: 50px;
+    display: flex;
+    gap: 12px;
+}
+
+
+.head{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.row{
+flex-direction: column-reverse;
+}
+
+.title {
+    height: 100px;
+    background-color: #EBEEF3;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.image-FOOTBALL{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFEfWbp5o9Ecy1Zkko0cZKAAb0GrL0PiwFg&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.image-BASCKETBALL{
+    background-image: url("https://img.freepik.com/free-photo/basketball-game-concept_23-2150910704.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.image-CARSPORT{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRNWYd5APZWfwC3_IbJwrdfIZd5AuDi90fOQ&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.image-TABLETENNIS{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5GGOArjGpSUH2AMsMdhrQUlmf4BvEW75p1Q&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    flex: 1;
+    border-radius: 4px;
+}
+
