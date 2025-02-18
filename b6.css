@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 1px solid transparent;
+    background-color: #f9fafc;
+    width: 60%;
+}
+
+.img{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhEhv5WPChDfI0TO-w-Q8XhVcqmhcSjY7Gmg&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.button{
+    border: 1px solid white ;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.paragraph{
+    padding-top: 13%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.arrow{
+    border: 1px solid transparent ;
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    height: 25px;
+    border-radius: 5px;
+    padding-bottom: 20px ;
+    cursor: pointer;
+}
+
+.number{
+    padding: 10px;
+}
+
+.num-1{
+    border: 1px solid transparent ;
+    background-color:  #262626;
+    border-radius: 60px;
+    color: white;
+}
